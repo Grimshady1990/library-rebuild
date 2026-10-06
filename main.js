@@ -1,4 +1,10 @@
-console.log("Hello World");
-let age = 45;
-console.log(age);
+let libary = []
+
+function Book(title, author, pages, read) {
+  this.title = title;
+  this.author = author;
+  this.pages = pages;
+  this.read = read;
+  this.id = crypto.randomUUID()
+}
 
