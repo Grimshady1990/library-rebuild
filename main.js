@@ -6,5 +6,5 @@ function Book(title, author, pages, read) {
   this.pages = pages;
   this.read = read;
   this.id = crypto.randomUUID()
+  
 }
-
