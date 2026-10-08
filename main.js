@@ -6,4 +6,6 @@ function Book(title, author, pages, read) {
   this.read = read;
 }
 
+const myLibrary = [];
+
 console.log("Library script loaded");
